@@ -1,0 +1,16 @@
+{
+  "name": "Autotest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bahn-de.js",
+  "dependencies": {
+    "puppeteer": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

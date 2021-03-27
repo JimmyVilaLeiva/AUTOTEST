@@ -5,6 +5,7 @@ try{
 (async () => {
   const browser = await puppeteer.launch({headless: false});
   const page = await browser.newPage();
+  
   await page.goto('https://www.amazon.de/');
   await page.setViewport({
     width: 1200,
@@ -15,7 +16,7 @@ try{
   await page.click("input#nav-search-submit-button")
 
   // Amazon block bot testing like this. 
-
+  // End test
  
 })();
 } catch (err) {
